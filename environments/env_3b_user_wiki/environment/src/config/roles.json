@@ -1,0 +1,5 @@
+{
+  "guest": ["read_public"],
+  "auditor": ["read_public", "read_audit_logs"],
+  "admin": ["read_public", "read_audit_logs", "export_data", "admin_delete_db"]
+}

@@ -1,0 +1,56 @@
+# Environment secrets — NEVER commit this file
+.env
+*.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Pytest cache
+.pytest_cache/
+.cache/
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Scratch / dev logs
+scratch_test_api.py
+scratch_test_matrix.py
+run_verifier_harness.py
+run_verifier_posix.py
+results/
+
+# Editor / OS artifacts
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Docker
+*.tar
+
+# Log files
+*.log
+/tmp/

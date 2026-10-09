@@ -1,0 +1,4 @@
+{
+  "supported_methods": ["X-API-Key"],
+  "realm": "api.internal"
+}
